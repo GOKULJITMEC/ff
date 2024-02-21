@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 10px 10px 0px 10px;
+}
+
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 20px;
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+.bar {
+  width: 100%;
+  background-color: black;
+  display: inline-flex;
+}
+
+h3 {
+  color: whitesmoke;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 3rem;
+  padding: 1rem;
+}
